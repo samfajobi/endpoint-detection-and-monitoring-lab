@@ -2,35 +2,6 @@
 
 ### Step 1️⃣ Install Sysmon on Windows
 
-Install Sysmon using a configuration file:
-
----
-
-````markdown
-# 🔧 Endpoint Monitoring Project – Setup Guide
-## Sysmon + Wazuh (SOC-Style Endpoint Monitoring)
-
----
-
-##  STEP 1: Prepare the Wazuh Server
-
-### On Ubuntu Server
-
-Install Wazuh (Manager, Indexer, Dashboard):
-
-```bash
-curl -sO https://packages.wazuh.com/4.x/wazuh-install.sh
-sudo bash wazuh-install.sh -a
-````
-
-### ✅ Verify Installation
-
-* Wazuh Manager is running
-* Wazuh Dashboard is accessible via browser
-
----
-
-## 🔧 STEP 2: Install Sysmon on Windows Endpoint
 
 ### 📥 Installation Steps
 
@@ -53,7 +24,7 @@ Sysmon64.exe -i sysmonconfig.xml
 
 ---
 
-## 🔧 STEP 3: Install Wazuh Agent on Windows
+## 🔧 STEP 2: Install Wazuh Agent on Windows
 
 ### 🖥️ Agent Setup
 
@@ -68,7 +39,7 @@ Sysmon64.exe -i sysmonconfig.xml
 
 ---
 
-## 🔧 STEP 4: Configure Wazuh to Collect Sysmon Logs
+## 🔧 STEP 3: Configure Wazuh to Collect Sysmon Logs
 
 ### 📄 Wazuh Agent Configuration (Windows)
 
@@ -89,7 +60,7 @@ Restart-Service wazuh
 
 ---
 
-## 🔧 STEP 5: Enable Sysmon Rules in Wazuh
+## 🔧 STEP 4: Enable Sysmon Rules in Wazuh
 
 Wazuh already includes:
 
@@ -104,7 +75,7 @@ Wazuh already includes:
 
 ---
 
-## 🔍 STEP 6: Generate Test Attacks (Validation)
+## 🔍 STEP 5: Generate Test Attacks (Validation)
 
 Run the following commands on the Windows endpoint:
 
@@ -122,7 +93,7 @@ powershell -enc <base64>
 
 ---
 
-## 📊 STEP 7: Analyze in Wazuh Dashboard
+## 📊 STEP 6: Analyze in Wazuh Dashboard
 
 Monitor and investigate:
 
