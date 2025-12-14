@@ -1,6 +1,4 @@
-
-
-## 🚀 Implementation Steps
+## Implementation Steps
 
 ### Step 1️⃣ Install Sysmon on Windows
 
@@ -88,16 +86,6 @@ This project supports:
 
 Together, they deliver powerful **endpoint monitoring and detection** comparable to commercial EDR solutions.
 
----
-
-## 📚 Future Improvements
-
-* Integrate alerts with SIEM (Splunk / Elastic)
-* Map detections to MITRE ATT&CK
-* Create custom Sysmon and Wazuh rules
-* Automate response actions
-
----
 
 ## 👤 Author
 
@@ -105,15 +93,4 @@ Together, they deliver powerful **endpoint monitoring and detection** comparable
 Cybersecurity Engineer (Blue & Red Team)
 GitHub: [https://github.com/samfajobi](https://github.com/samfajobi)
 
-```
-
----
-
-If you want next, I can:
-- 🔥 Add **screenshots sections** (very good for GitHub)
-- 🔥 Add **MITRE ATT&CK mapping table**
-- 🔥 Turn this into a **portfolio-ready SOC project**
-- 🔥 Add **custom Sysmon + Wazuh detection examples**
-
-Just say the word 👊
 ```

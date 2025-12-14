@@ -5,10 +5,6 @@ Monitoring devices with sysmon and wazuh. These free tools gives 90% of the skil
 In this project, I deployed Sysmon on Windows endpoints for deep telemetry, configured Wazuh agents to collect Sysmon event logs, and centralized detection and alerting through the Wazuh manager. This improved visibility into Process creation, PowerShell abuse, and lateral movement, mapped to MITRE ATT&CK
 
 
-
-
-## 📌 Project Overview
-
 This project demonstrates how to build **advanced endpoint monitoring** using **Sysmon**, **Wazuh Agent**, and the **Wazuh Manager**.
 
 It shows how **low-level endpoint telemetry** such as:
@@ -24,7 +20,7 @@ This setup reflects how modern **SOC and Blue Team environments** perform **EDR-
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```text
 Windows Endpoint
@@ -46,7 +42,7 @@ Windows Endpoint
 
 ---
 
-## 🔍 Components Explained
+## Components Explained
 
 ### 1️⃣ Sysmon (System Monitor)
 
