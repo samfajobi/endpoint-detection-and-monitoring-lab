@@ -116,9 +116,9 @@ So:
 
 # Clean Mental Model
 
-* Windows Event Logs = The platform**
-* Security logs = Who and access**
-* Sysmon logs = What and how**
+* Windows Event Logs = The platform
+* Security logs = Who and access
+* Sysmon logs = What and how
 
 ---
 
