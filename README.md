@@ -18,5 +18,31 @@ The goal is to highlight the **difference in visibility, detection capability, a
 
 ---
 
+## 🏗️ Architecture Overview
+
+| Component | Description |
+|---------|------------|
+| Wazuh Manager | Central log analysis and correlation |
+| Wazuh Indexer | Storage and search of security events |
+| Wazuh Dashboard | Visualization and SOC investigation |
+| Windows Endpoint | Monitored host (with or without Sysmon) |
+
+📌 Two monitoring profiles are implemented to reflect real enterprise constraints.
+
+---
+
+## 🔍 Monitoring Profiles
+
+### 1️⃣ Profile A: Windows Event Logs Only (No Sysmon)
+- Uses native Windows Security, System, and Application logs
+- Suitable for restricted or legacy environments
+- Provides baseline detection and visibility
+
+### 2️⃣ Profile B: Windows Event Logs + Sysmon
+- Sysmon installed and configured on the endpoint
+- Provides enhanced telemetry (process, network, registry)
+- Enables advanced threat detection and correlation
+
+---
 
 
