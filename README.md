@@ -45,4 +45,26 @@ The goal is to highlight the **difference in visibility, detection capability, a
 
 ---
 
+## 📊 Detection Comparison Summary
 
+| Capability | Without Sysmon | With Sysmon |
+|----------|---------------|------------|
+| Process creation visibility | Limited | Full |
+| Network connection tracking | Limited | Detailed |
+| Registry monitoring | Minimal | Extensive |
+| Threat detection depth | Baseline | Advanced |
+| SOC investigation quality | Moderate | High |
+
+---
+
+## 🧠 SOC Use Case
+This lab simulates how a SOC:
+- Detects suspicious endpoint activity
+- Investigates alerts using Wazuh
+- Applies playbooks for response
+- Understands detection gaps and trade-offs
+
+---
+
+## 📁 Repository Structure
+See folder layout below for implementation details.
